@@ -1421,6 +1421,49 @@
     min-height: auto;
   }
 
+  .statsRow {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .statCard {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .heroButtons {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .headline {
+    font-size: clamp(3rem, 8vw, 4rem);
+    /* Increased from clamp(3rem, 7vw, 5.5rem) specifically for mobile range if needed, but previously it was clamp(3rem...) */
+    /* User asked to "increase h1". Original was clamp(3rem, 7vw, 5.5rem).
+       On 968px, 7vw is ~67px. 3rem is 48px.
+       If I want it bigger on phone, I should increase the minimum.
+       Let's make it clamp(3.5rem, 8vw, 5.5rem).
+    */
+    font-size: clamp(3.5rem, 9vw, 5rem);
+  }
+
+  .heroDescription {
+    font-size: 1rem;
+    /* Reduced from 1.25rem */
+  }
+
+
   .gridLines {
     mask-image: radial-gradient(ellipse 120% 70% at 50% 30%, black 0%, transparent 100%);
     -webkit-mask-image: radial-gradient(ellipse 120% 70% at 50% 30%, black 0%, transparent 100%);
