@@ -1,0 +1,13 @@
+/* Premium White Theme Homepage Styles */
+
+/* Core Variables moved to globals.css */
+
+
+/* Page Container */
+.page {
+  min-height: 100vh;
+  background-color: var(--white);
+  color: var(--text-primary);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}

@@ -1,0 +1,380 @@
+{
+    "footer": {
+        "brandDescription": "Converting your ideas into functional and profitable digital products.",
+        "navigation": "Navigation",
+        "contact": "Contact",
+        "rights": "All rights reserved."
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "routes": {
+        "home": "/en",
+        "about": "/en/about",
+        "projects": "/en/projects",
+        "contact": "/en/contact"
+    },
+    "pages": {
+        "home": {
+            "title": "ZecevicDev | Web Solutions",
+            "description": "Professional web solutions that deliver results"
+        },
+        "about": {
+            "title": "About - ZecevicDev",
+            "description": "Learn more about us"
+        },
+        "projects": {
+            "title": "Projects - ZecevicDev",
+            "description": "View our projects"
+        },
+        "contact": {
+            "title": "Contact - ZecevicDev",
+            "description": "Get in touch with us"
+        }
+    },
+    "home": {
+        "hero": {
+            "tagline": "Web Solutions",
+            "headline": "I build systems that deliver results.",
+            "description": "Your business stands out from the competition, attracts more visitors, builds trust, and turns visits into real profit.",
+            "cta": "Start Your Project",
+            "ctaSecondary": "View Our Work",
+            "stats": {
+                "projects": {
+                    "label": "Projects Delivered"
+                },
+                "revenue": {
+                    "label": "Revenue Generated"
+                },
+                "experience": {
+                    "label": "Years Experience"
+                },
+                "clients": {
+                    "label": "Client Satisfaction"
+                }
+            }
+        },
+        "services": {
+            "title": "What We Do",
+            "subtitle": "Complete web solutions tailored to your needs",
+            "items": {
+                "web": {
+                    "title": "Web Development",
+                    "description": "Modern, fast, and optimized websites built with the latest technologies."
+                },
+                "design": {
+                    "title": "Design",
+                    "description": "Elegant and intuitive interfaces that make a powerful first impression."
+                },
+                "ecommerce": {
+                    "title": "E-Commerce",
+                    "description": "Complete online selling solutions with integrated payment systems."
+                },
+                "seo": {
+                    "title": "Digital Optimization",
+                    "description": "Technical refinement of your online presence — from loading speed to search engine visibility."
+                }
+            }
+        },
+        "about": {
+            "tagline": "About Us",
+            "title": "Why Us",
+            "description": "We focus on results, not complications. We treat every project as a partnership where your success is our priority.",
+            "stats": {
+                "projects": "Completed Projects",
+                "clients": "Happy Clients",
+                "experience": "Years of Experience"
+            }
+        },
+        "cta": {
+            "tagline": "Let's Work Together",
+            "title": "Ready for the Next Step?",
+            "description": "Let's discuss how we can help your business reach its full potential online.",
+            "button": "Contact Us"
+        }
+    },
+    "projects": {
+        "hero": {
+            "tagline": "Portfolio",
+            "headline": "Code That",
+            "headlineHighlight": "Makes a Difference",
+            "description": "I helped entrepreneurs elevate their business through optimized web solutions that deliver visible results. Your next success starts here."
+        },
+        "stats": {
+            "revenue": {
+                "value": "€10k+",
+                "label": "Revenue Generated"
+            },
+            "projects": {
+                "value": "20+",
+                "label": "Projects Delivered"
+            },
+            "satisfaction": {
+                "value": "100%",
+                "label": "Client Satisfaction"
+            }
+        },
+        "caseStudies": "Case Studies",
+        "viewDetails": "View Details",
+        "items": {
+            "dijalog": {
+                "category": "CONTENT PLATFORM",
+                "title": "DIJALOG PODCAST",
+                "tagline": "Turn listeners into paying customers",
+                "description": "A complete digital ecosystem that transforms casual listeners into loyal subscribers and paying customers. New episode alerts, exclusive content tiers, newsletter automation, and a built-in store.",
+                "stats": {
+                    "stat1": {
+                        "value": "100%",
+                        "label": "Engagement Increase"
+                    },
+                    "stat2": {
+                        "value": "30k+",
+                        "label": "Monthly Listeners"
+                    },
+                    "stat3": {
+                        "value": "24/7",
+                        "label": "Passive Income"
+                    }
+                }
+            },
+            "akademija": {
+                "category": "LEARNING PLATFORM",
+                "title": "MOTION ACADEMY",
+                "tagline": "Scale your expertise into revenue",
+                "description": "Stop trading time for money. This platform packages your knowledge into a scalable product. Students enroll, pay, and progress through your curriculum automatically.",
+                "stats": {
+                    "stat1": {
+                        "value": "50+",
+                        "label": "Students Enrolled"
+                    },
+                    "stat2": {
+                        "value": "100%",
+                        "label": "Course Completion"
+                    },
+                    "stat3": {
+                        "value": "Elite",
+                        "label": "Student Experience"
+                    }
+                }
+            },
+            "eneplus": {
+                "category": "CORPORATE WEB PLATFORM",
+                "title": "EnePlus Company",
+                "tagline": "Converting credibility into clients",
+                "description": "A high-authority corporate website built to convert technical expertise into real business opportunities. Clean, conversion-focused and positions ENEPLUS as a credible partner.",
+                "stats": {
+                    "stat1": {
+                        "value": "Expert",
+                        "label": "Industry Positioning"
+                    },
+                    "stat2": {
+                        "value": "B2B",
+                        "label": "Qualified Leads"
+                    },
+                    "stat3": {
+                        "value": "24/7",
+                        "label": "Inbound Presence"
+                    }
+                }
+            },
+            "eshop": {
+                "category": "E-SHOP",
+                "title": "DIGITAL VAULT",
+                "tagline": "Sell while you sleep",
+                "description": "Your 24/7 sales machine for digital products. Templates, presets, guides, courses—whatever you create, this platform sells. Instant delivery, secure payments from anywhere.",
+                "stats": {
+                    "stat1": {
+                        "value": "100%",
+                        "label": "Automated Assets"
+                    },
+                    "stat2": {
+                        "value": "∞",
+                        "label": "Scalability"
+                    },
+                    "stat3": {
+                        "value": "Global",
+                        "label": "Payment Gateway"
+                    }
+                }
+            },
+            "satovi": {
+                "category": "LUXURY E-COMMERCE",
+                "title": "LUXURY TIMEPIECE",
+                "tagline": "Premium brand, premium experience",
+                "description": "When you sell high-ticket items, every pixel matters. This e-commerce platform is engineered to convert browsers into buyers of premium watches.",
+                "stats": {
+                    "stat1": {
+                        "value": "Premium",
+                        "label": "User Experience"
+                    },
+                    "stat2": {
+                        "value": "100%",
+                        "label": "Hands-Free Sales"
+                    },
+                    "stat3": {
+                        "value": "Seamless",
+                        "label": "Checkout Flow"
+                    }
+                }
+            },
+            "discord": {
+                "category": "AUTOMATION",
+                "title": "COMMUNITY ENGINE",
+                "tagline": "Automate your community, multiply your time",
+                "description": "Your community runs itself. This Discord integration handles member onboarding, payment verification, subscription management, and access control automatically.",
+                "stats": {
+                    "stat1": {
+                        "value": "10+",
+                        "label": "Hours Saved Weekly"
+                    },
+                    "stat2": {
+                        "value": "100%",
+                        "label": "Payment Accuracy"
+                    },
+                    "stat3": {
+                        "value": "0",
+                        "label": "Manual Tasks"
+                    }
+                }
+            },
+            "spomenici": {
+                "category": "DIGITAL ARCHIVE",
+                "title": "MONUMENTS OF NOVI SAD",
+                "tagline": "History in the palm of your hand",
+                "description": "A professional digital archive and interactive map of the monuments of Novi Sad. Combining cultural heritage and modern web technologies to ensure a lasting preservation of the city's history.",
+                "stats": {
+                    "stat1": {
+                        "value": "SR | EN",
+                        "label": "Bilingual Support"
+                    },
+                    "stat2": {
+                        "value": "100%",
+                        "label": "Interactive"
+                    },
+                    "stat3": {
+                        "value": "Digital",
+                        "label": "Cultural Archive"
+                    }
+                }
+            }
+        },
+        "cta": {
+            "tagline": "Ready to Deploy Your Leverage?",
+            "title": "Average is a choice.",
+            "description": "Let's create a high-performance asset that makes your presence unavoidable.",
+            "button": "Start Your Project"
+        }
+    },
+    "about": {
+        "hero": {
+            "tagline": "ABOUT",
+            "headline": "Websites that",
+            "headlineHighlight": "aren't just aesthetics",
+            "description": "While most rely on generic templates, I create unique solutions that provide a real market advantage. I combine engineering precision with design that attracts the right clients.",
+            "cta": "Start Project",
+            "secondaryCta": "View Process",
+            "stats": {
+                "exp": {
+                    "value": "5+",
+                    "label": "Years Experience"
+                },
+                "projects": {
+                    "value": "20+",
+                    "label": "Successful Projects"
+                },
+                "clients": {
+                    "value": "100%",
+                    "label": "Client Satisfaction"
+                }
+            }
+        },
+        "process": {
+            "tagline": "METHODOLOGY",
+            "title": "THE PROCESS",
+            "steps": {
+                "discovery": {
+                    "title": "Discovery",
+                    "description": "Deep analysis of your business. Goals, bottlenecks, opportunities. No fluff."
+                },
+                "architecture": {
+                    "title": "Architecture",
+                    "description": "Blueprint of your digital empire. Scalable systems designed for growth."
+                },
+                "execution": {
+                    "title": "Execution",
+                    "description": "Rapid development. Weekly updates. Zero surprises."
+                },
+                "deployment": {
+                    "title": "Deployment",
+                    "description": "Launch, optimization, dominance. Support included."
+                }
+            }
+        },
+        "stack": {
+            "tagline": "TECHNOLOGIES",
+            "title": "TECH STACK",
+            "core": {
+                "title": "Core Stack",
+                "description": "Technologies for fast,maintainable, and scalable web and mobile applications."
+            },
+            "ai": {
+                "title": "AI & Automation",
+                "description": "Intelligent systems that automate complex workflows, turning manual tasks into autonomous pipelines."
+            },
+            "infra": {
+                "title": "Infrastructure",
+                "description": "Secure, reliable, and production-ready infrastructure ensuring optimal performance."
+            }
+        },
+        "cta": {
+            "tagline": "NEXT STEP",
+            "title": "Let's build.",
+            "description": "Secure a solution that scales easily and delivers results.",
+            "button": "SCHEDULE CONSULTATION"
+        }
+    },
+    "contact": {
+        "hero": {
+            "tagline": "CONTACT",
+            "headline": "Let's talk about",
+            "headlineHighlight": "your project",
+            "description": "Share your vision and goals with me, and I will help you transform them into a functional web solution that delivers results."
+        },
+        "info": {
+            "tagline": "INFORMATION",
+            "title": "How to reach us",
+            "description": "Choose the method that works best for you. We respond within 24 hours.",
+            "email": {
+                "label": "Email"
+            },
+            "person": {
+                "label": "Contact Person"
+            },
+            "location": {
+                "label": "Location"
+            }
+        },
+        "form": {
+            "title": "Send a message",
+            "description": "Fill out the form and we'll get back to you as soon as possible.",
+            "name": "Full Name",
+            "namePlaceholder": "Your name",
+            "email": "Email Address",
+            "emailPlaceholder": "you@gmail.com",
+            "subject": "Subject",
+            "subjectPlaceholder": "What would you like to discuss?",
+            "message": "Message",
+            "messagePlaceholder": "Describe your project or question...",
+            "submit": "SEND MESSAGE"
+        },
+        "cta": {
+            "tagline": "ALTERNATIVE",
+            "title": "Prefer direct contact?",
+            "description": "Send us an email directly and we'll respond within 24 hours.",
+            "button": "SEND EMAIL"
+        }
+    }
+}

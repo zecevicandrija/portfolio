@@ -1,0 +1,380 @@
+{
+  "footer": {
+    "brandDescription": "Pretvaram vaše ideje u funkcionalne i profitabilne digitalne proizvode.",
+    "navigation": "Navigacija",
+    "contact": "Kontakt",
+    "rights": "All rights reserved."
+  },
+  "nav": {
+    "home": "Početna",
+    "about": "O nama",
+    "projects": "Projekti",
+    "contact": "Kontakt"
+  },
+  "routes": {
+    "home": "/",
+    "about": "/o-nama",
+    "projects": "/projekti",
+    "contact": "/kontakt"
+  },
+  "pages": {
+    "home": {
+      "title": "ZecevicDev | Web Rešenja",
+      "description": "Profesionalna web rešenja koja donose rezultate"
+    },
+    "about": {
+      "title": "O nama - ZecevicDev",
+      "description": "Saznajte više o nama"
+    },
+    "projects": {
+      "title": "Projekti - ZecevicDev",
+      "description": "Pogledajte naše projekte"
+    },
+    "contact": {
+      "title": "Kontakt - ZecevicDev",
+      "description": "Kontaktirajte nas"
+    }
+  },
+  "home": {
+    "hero": {
+      "tagline": "Web Rešenja",
+      "headline": "Razvijam sisteme koji donose rezultat.",
+      "description": "Tvoj biznis se ističe među konkurencijom, privlači više posetilaca, gradi poverenje i pretvara posete u stvarnu zaradu.",
+      "cta": "Započnite Projekat",
+      "ctaSecondary": "Pogledajte Radove",
+      "stats": {
+        "projects": {
+          "label": "Završenih Projekata"
+        },
+        "revenue": {
+          "label": "Generisanog Prihoda"
+        },
+        "experience": {
+          "label": "Godina Iskustva"
+        },
+        "clients": {
+          "label": "Zadovoljni Klijenti"
+        }
+      }
+    },
+    "services": {
+      "title": "Šta Radimo",
+      "subtitle": "Kompletna web rešenja prilagođena Vašim potrebama",
+      "items": {
+        "web": {
+          "title": "Web Razvoj",
+          "description": "Moderne i brze web stranice izgrađene najnovijim tehnologijama."
+        },
+        "design": {
+          "title": "Dizajn",
+          "description": "Elegantni i intuitivni interfejsi koji ostavljaju snažan prvi utisak."
+        },
+        "ecommerce": {
+          "title": "E-Commerce",
+          "description": "Kompletna rešenja za online prodaju sa integrisanim sistemima plaćanja."
+        },
+        "seo": {
+          "title": "Digitalna Optimizacija",
+          "description": "Tehničko usavršavanje - od brzine učitavanja do vidljivosti na internetu."
+        }
+      }
+    },
+    "about": {
+      "tagline": "O Nama",
+      "title": "Zašto Ja?",
+      "description": "Moji klijenti ostaju uz mene jer dobijaju stabilnost i rezultate. Fokusiran sam na dugoročna partnerstva, realizujući više projekata za svakog klijenta kako bismo zajedno osigurali njihov stalni napredak.",
+      "stats": {
+        "projects": "Završenih Projekata",
+        "clients": "Dugoročnih Klijenata",
+        "experience": "Godina Iskustva"
+      }
+    },
+    "cta": {
+      "tagline": "Sarađujmo",
+      "title": "Spremni za Sledeći Korak?",
+      "description": "Razgovarajmo o tome kako mogu pomoći Vašem biznisu da dostigne pun potencijal online.",
+      "button": "Započnite Projekat"
+    }
+  },
+  "projects": {
+    "hero": {
+      "tagline": "Portfolio",
+      "headline": "Kod Koji",
+      "headlineHighlight": "Pravi Razliku",
+      "description": "Pomogao sam preduzetnicima da podignu poslovanje na viši nivo kroz optimizovana web rešenja koja donose vidljivu razliku. Vaš sledeći uspeh počinje ovde."
+    },
+    "stats": {
+      "revenue": {
+        "value": "€10k+",
+        "label": "Generisani Prihod"
+      },
+      "projects": {
+        "value": "20+",
+        "label": "Isporučenih Projekata"
+      },
+      "satisfaction": {
+        "value": "100%",
+        "label": "Zadovoljstvo Klijenata"
+      }
+    },
+    "caseStudies": "KLIJENTI",
+    "viewDetails": "Pogledaj Detalje",
+    "items": {
+      "dijalog": {
+        "category": "CONTENT PLATFORMA",
+        "title": "DIJALOG PODCAST",
+        "tagline": "Pretvorite slušaoce u kupce",
+        "description": "Kompletan digitalni ekosistem koji transformiše obične slušaoce u lojalne pretplatnike i kupce. Obaveštenja o novim epizodama, ekskluzivni sadržaj, automatizacija newsletter-a i integrisana prodavnica.",
+        "stats": {
+          "stat1": {
+            "value": "100%",
+            "label": "Porast Angažmana"
+          },
+          "stat2": {
+            "value": "30k+",
+            "label": "Mesečnih Slušalaca"
+          },
+          "stat3": {
+            "value": "24/7",
+            "label": "Pasivni Prihod"
+          }
+        }
+      },
+      "akademija": {
+        "category": "PLATFORMA ZA UČENJE",
+        "title": "MOTION ACADEMY",
+        "tagline": "Skalirajte svoju ekspertizu u prihod",
+        "description": "Prestanite da menjate vreme za novac. Ova platforma pakuje vaše znanje u skalabilan proizvod. Studenti se upisuju, plaćaju i napreduju kroz vaš kurikulum automatski.",
+        "stats": {
+          "stat1": {
+            "value": "50+",
+            "label": "Upisanih Studenata"
+          },
+          "stat2": {
+            "value": "100%",
+            "label": "Završenost Kursa"
+          },
+          "stat3": {
+            "value": "Elite",
+            "label": "Iskustvo Studenata"
+          }
+        }
+      },
+      "eneplus": {
+        "category": "KORPORATIVNA WEB PLATFORMA",
+        "title": "EnePlus Company",
+        "tagline": "Pretvaranje kredibiliteta u klijente",
+        "description": "Korporativni sajt visokog autoriteta napravljen da konvertuje tehničku ekspertizu u prave poslovne prilike. Čist, fokusiran na konverziju i pozicionira ENEPLUS kao kredibilnog partnera.",
+        "stats": {
+          "stat1": {
+            "value": "Expert",
+            "label": "Pozicioniranje"
+          },
+          "stat2": {
+            "value": "B2B",
+            "label": "Kvalifikovani Lidovi"
+          },
+          "stat3": {
+            "value": "24/7",
+            "label": "Inbound Prisutnost"
+          }
+        }
+      },
+      "eshop": {
+        "category": "E-PRODAVNICA",
+        "title": "DIGITAL VAULT",
+        "tagline": "Prodajte dok spavate",
+        "description": "Vaša 24/7 prodajna mašina za digitalne proizvode. Šabloni, preseti, vodiči, kursevi — šta god da kreirate, ova platforma prodaje. Instant isporuka, sigurna plaćanja iz celog sveta.",
+        "stats": {
+          "stat1": {
+            "value": "100%",
+            "label": "Automatizovano"
+          },
+          "stat2": {
+            "value": "∞",
+            "label": "Skalabilnost"
+          },
+          "stat3": {
+            "value": "Global",
+            "label": "Plaćanja"
+          }
+        }
+      },
+      "satovi": {
+        "category": "LUKSUZNA E-TRGOVINA",
+        "title": "LUXURY TIMEPIECE",
+        "tagline": "Premium brend, premium iskustvo",
+        "description": "Kada prodajete high-ticket proizvode, svaki piksel je bitan. Ova e-commerce platforma je inženjerisana da konvertuje posetioce u kupce premium satova.",
+        "stats": {
+          "stat1": {
+            "value": "Premium",
+            "label": "Korisničko Iskustvo"
+          },
+          "stat2": {
+            "value": "100%",
+            "label": "Hands-Free Prodaja"
+          },
+          "stat3": {
+            "value": "Seamless",
+            "label": "Checkout Flow"
+          }
+        }
+      },
+      "discord": {
+        "category": "AUTOMATIZACIJA",
+        "title": "COMMUNITY ENGINE",
+        "tagline": "Automatizujte zajednicu, umnožite vreme",
+        "description": "Vaša zajednica se vodi sama. Ova Discord integracija automatski upravlja onboarding-om, verifikacijom plaćanja, pretplatama i kontrolom pristupa.",
+        "stats": {
+          "stat1": {
+            "value": "10+",
+            "label": "Sati Uštede Nedeljno"
+          },
+          "stat2": {
+            "value": "100%",
+            "label": "Tačnost Plaćanja"
+          },
+          "stat3": {
+            "value": "0",
+            "label": "Manuelnih Zadataka"
+          }
+        }
+      },
+      "spomenici": {
+        "category": "DIGITALNI ARHIV",
+        "title": "SPOMENICI NOVOG SADA",
+        "tagline": "Istorija na vašem dlanu",
+        "description": "Profesionalni digitalni arhiv i interaktivna mapa spomenika Novog Sada. Spajanje kulturne baštine i modernih web tehnologija kako bi se osiguralo trajno očuvanje istorije grada.",
+        "stats": {
+          "stat1": {
+            "value": "SR | EN",
+            "label": "Višejezična Podrška"
+          },
+          "stat2": {
+            "value": "100%",
+            "label": "Interaktivno"
+          },
+          "stat3": {
+            "value": "Digitalna",
+            "label": "Kulturna Arhiva"
+          }
+        }
+      }
+    },
+    "cta": {
+      "tagline": "Zakaži Konsultacije",
+      "title": "Pretvaram Ideje u Profit",
+      "description": "Pomogao sam preduzetnicima da prevaziđu tehnička ograničenja i dobiju web rešenja koja u potpunosti prate njihovu ambiciju.",
+      "button": "Pređimo na stvar"
+    }
+  },
+  "about": {
+    "hero": {
+      "tagline": "O NAMA",
+      "headline": "Sajtovi koji",
+      "headlineHighlight": "nisu samo estetika",
+      "description": "Dok se većina oslanja na generičke šablone, ja kreiram unikatna rešenja koja donose realnu prednost na tržištu. Spajam inženjersku preciznost sa dizajnom koji privlači prave klijente.",
+      "cta": "Započnite Projekat",
+      "secondaryCta": "Pogledajte Proces",
+      "stats": {
+        "exp": {
+          "value": "5+",
+          "label": "Godina Iskustva"
+        },
+        "projects": {
+          "value": "20+",
+          "label": "Uspešnih Projekata"
+        },
+        "clients": {
+          "value": "100%",
+          "label": "Zadovoljstvo Klijenata"
+        }
+      }
+    },
+    "process": {
+      "tagline": "METODOLOGIJA",
+      "title": "PROCES RADA",
+      "steps": {
+        "discovery": {
+          "title": "Discovery",
+          "description": "Duboka analiza vašeg biznisa. Ciljevi, uska grla, prilike."
+        },
+        "architecture": {
+          "title": "Arhitektura",
+          "description": "Kreiranje preciznog plana i strukture vašeg sajta."
+        },
+        "execution": {
+          "title": "Izgradnja",
+          "description": "Brza i precizna izrada uz redovne izveštaje."
+        },
+        "deployment": {
+          "title": "Lansiranje",
+          "description": "Puštanje sajta u rad uz potpunu optimizaciju. Podrška uključena."
+        }
+      }
+    },
+    "stack": {
+      "tagline": "TEHNOLOGIJE",
+      "title": "TECH STACK",
+      "core": {
+        "title": "Core Stack",
+        "description": "Tehnologije za brze, održive i skalabilne web i mobilne aplikacije."
+      },
+      "ai": {
+        "title": "AI & Automation",
+        "description": "Inteligentni sistemi koji automatizuju složene workflow-ove, pretvarajući manuelne taskove u autonomne pipeline-ove."
+      },
+      "infra": {
+        "title": "Infrastructure",
+        "description": "Sigurna, pouzdana i production-ready infrastruktura koja osigurava optimalne performanse."
+      }
+    },
+    "cta": {
+      "tagline": "SLEDEĆI KORAK",
+      "title": "Hajde da gradimo.",
+      "description": "Osigurajte sebi rešenje koje se lako skalira i donosi rezultate.",
+      "button": "ZAKAŽITE KONSULTACIJU"
+    }
+  },
+  "contact": {
+    "hero": {
+      "tagline": "KONTAKT",
+      "headline": "Razgovarajmo o",
+      "headlineHighlight": "vašem projektu",
+      "description": "Podelite sa mnom svoju viziju i ciljeve, a ja ću Vam pomoći da ih transformišete u funkcionalno web rešenje koje donosi rezultate."
+    },
+    "info": {
+      "tagline": "INFORMACIJE",
+      "title": "Kako nas kontaktirati",
+      "description": "Odaberite način koji vam najviše odgovara. Odgovaramo u roku od 24 sata.",
+      "email": {
+        "label": "Email"
+      },
+      "person": {
+        "label": "Kontakt osoba"
+      },
+      "location": {
+        "label": "Lokacija"
+      }
+    },
+    "form": {
+      "title": "Pošaljite poruku",
+      "description": "Ispunite formu i javićemo vam se u najkraćem roku.",
+      "name": "Ime i prezime",
+      "namePlaceholder": "Vaše ime",
+      "email": "Email adresa",
+      "emailPlaceholder": "vas@gmail.com",
+      "subject": "Tema",
+      "subjectPlaceholder": "O čemu želite da razgovaramo?",
+      "message": "Poruka",
+      "messagePlaceholder": "Opišite vaš projekat ili pitanje...",
+      "submit": "POŠALJI PORUKU"
+    },
+    "cta": {
+      "tagline": "ALTERNATIVA",
+      "title": "Preferirate direktan kontakt?",
+      "description": "Pošaljite nam email direktno i odgovorićemo u roku od 24 sata.",
+      "button": "POŠALJI EMAIL"
+    }
+  }
+}
