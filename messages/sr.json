@@ -259,6 +259,26 @@
             "label": "Kulturna Arhiva"
           }
         }
+      },
+      "ebikes": {
+        "category": "RENTAL PLATFORMA",
+        "title": "E-BIKE RENTAL",
+        "tagline": "Prestanite da gubite vreme na rezervacije",
+        "description": "Transformacija tradicionalnog rental biznisa u potpuno autonoman digitalni sistem. Umesto manuelnih rezervacija i telefonskih poziva, klijent je dobio rešenje koje 24/7 upravlja dostupnošću flote i zatvara prodaju bez ljudske asistencije.",
+        "stats": {
+          "stat1": {
+            "value": "100%",
+            "label": "Online Rezervacije"
+          },
+          "stat2": {
+            "value": "24/7",
+            "label": "Dostupnost"
+          },
+          "stat3": {
+            "value": "Top 1",
+            "label": "Google Pretraga"
+          }
+        }
       }
     },
     "cta": {

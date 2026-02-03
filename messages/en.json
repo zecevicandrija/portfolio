@@ -259,6 +259,26 @@
                         "label": "Cultural Archive"
                     }
                 }
+            },
+            "ebikes": {
+                "category": "RENTAL PLATFORM",
+                "title": "E-BIKE RENTAL",
+                "tagline": "Stop losing time on manual bookings",
+                "description": "Transforming a traditional rental business into a fully autonomous digital system. Replacing manual bookings and phone calls with a solution that manages fleet availability 24/7 and closes sales without human intervention.",
+                "stats": {
+                    "stat1": {
+                        "value": "100%",
+                        "label": "Online Booking"
+                    },
+                    "stat2": {
+                        "value": "24/7",
+                        "label": "Availability"
+                    },
+                    "stat3": {
+                        "value": "Top 1",
+                        "label": "Google Search"
+                    }
+                }
             }
         },
         "cta": {

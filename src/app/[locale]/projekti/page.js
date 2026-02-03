@@ -52,6 +52,12 @@ export default function ProjectsPage() {
             image: '/Assets/spomenici.jpg',
             link: 'https://spomenicinovogsada.com'
         },
+        {
+            id: 'ebikes',
+            number: '08',
+            image: '/Assets/ebikes.jpg',
+            link: 'https://www.belgrade-ebikes.com/'
+        },
     ];
 
     return (
