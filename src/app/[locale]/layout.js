@@ -27,14 +27,14 @@ export async function generateMetadata({ params }) {
 
     const t = {
         sr: {
-            title: 'ZecevicDev | Izrada Web Sajtova i Aplikacija',
-            description: 'Profesionalna izrada web sajtova i web aplikacija. Moderne tehnologije, brzina i SEO optimizacija. Vaš partner za digitalni uspeh.',
-            keywords: ['izrada sajtova', 'web aplikacije', 'programiranje', 'web dizajn', 'seo optimizacija', 'nextjs', 'react'],
+            title: 'ZecevicDev | Web Razvoj i Dizajn',
+            description: 'Projektujem high-performance digitalne sisteme koji pretvaraju pažnju u prihod. Arhitektura spremna za 100k+ korisnika i maksimalnu konverziju.',
+            keywords: ['izrada sajtova', 'web aplikacije', 'programiranje', 'web dizajn', 'seo optimizacija', 'digitalni sistemi', 'nextjs', 'react'],
         },
         en: {
             title: 'ZecevicDev | Web Development & Design',
-            description: 'Professional web development and design services. Modern technologies, speed, and SEO optimization. Your partner for digital success.',
-            keywords: ['web development', 'web design', 'web apps', 'programming', 'seo optimization', 'nextjs', 'react'],
+            description: 'Projecting high-performance digital systems that turn attention into profit. Architecture ready for 100k+ users and maximum conversion.',
+            keywords: ['web development', 'web design', 'web apps', 'programming', 'seo optimization', 'digital systems', 'nextjs', 'react'],
         }
     };
 

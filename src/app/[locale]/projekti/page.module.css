@@ -1425,21 +1425,36 @@
 
     .statCard {
         width: 100%;
-        max-width: 280px;
+        max-width: 100%;
     }
 
     .statCardInner {
         padding: 1.5rem;
-        flex-direction: row;
-        gap: 1rem;
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto auto;
+        column-gap: 1.25rem;
+        row-gap: 0.25rem;
+        align-items: center;
+        text-align: left;
     }
 
     .statIcon {
         margin-bottom: 0;
+        grid-row: 1 / -1;
     }
 
-    .statCard .statCardInner>*:not(.statIcon):not(.statGlow) {
-        text-align: left;
+    .statValue {
+        font-size: 1.4rem;
+        line-height: 1.2;
+        align-self: flex-end;
+    }
+
+    .statLabel {
+        font-size: 0.75rem;
+        line-height: 1.2;
+        align-self: flex-start;
+        color: #777;
     }
 
     .scrollIndicator {

@@ -1,6 +1,6 @@
 {
     "footer": {
-        "brandDescription": "Converting your ideas into functional and profitable digital products.",
+        "brandDescription": "Building digital systems that turn traffic into revenue.",
         "navigation": "Navigation",
         "contact": "Contact",
         "rights": "All rights reserved."
@@ -38,9 +38,9 @@
     "home": {
         "hero": {
             "tagline": "Web Solutions",
-            "headline": "I build systems that deliver results.",
-            "description": "Your business stands out from the competition, attracts more visitors, builds trust, and turns visits into real profit.",
-            "cta": "Start Your Project",
+            "headline": "I build digital systems that turn traffic into revenue.",
+            "description": "Web applications, automation, and systems engineered for conversion and long-term scaling.",
+            "cta": "Let's talk systems",
             "ctaSecondary": "View Our Work",
             "stats": {
                 "projects": {
@@ -58,35 +58,57 @@
             }
         },
         "services": {
-            "title": "What We Do",
-            "subtitle": "Complete web solutions tailored to your needs",
+            "label": "SYSTEMS",
+            "title": "System solutions for scaling revenue.",
             "items": {
                 "web": {
-                    "title": "Web Development",
-                    "description": "Modern, fast, and optimized websites built with the latest technologies."
+                    "tag": "CORE SYSTEM",
+                    "status": "ACTIVE",
+                    "title": "Full-Stack Engineering",
+                    "description": "I build systems that don't know the concept of 'down-time'. While competition struggles with bugs and slow loading, your business processes payments and data without interruption. Architecture designed to support rapid growth without needing a complete code rewrite in six months.",
+                    "tech": "Next.js · Node.js · SQL · REST API",
+                    "tags": "Zero-Failure Logic · Rapid Scaling · Enterprise Performance"
                 },
                 "design": {
-                    "title": "Design",
-                    "description": "Elegant and intuitive interfaces that make a powerful first impression."
+                    "tag": "UX LAYER",
+                    "status": "ACTIVE",
+                    "title": "Conversion Architecture",
+                    "description": "UI/UX engineered to guide users toward conversion. Every pixel has a purpose — reducing bounce rate and increasing revenue.",
+                    "tech": "Responsive · Motion Design · A/B Testing"
                 },
                 "ecommerce": {
-                    "title": "E-Commerce",
-                    "description": "Complete online selling solutions with integrated payment systems."
+                    "tag": "REVENUE ENGINE",
+                    "status": "OPERATIONAL",
+                    "title": "Revenue Infrastructure",
+                    "description": "Integrated payment systems, automatic delivery, and inventory tracking. A store that generates revenue while you sleep.",
+                    "tech": "Stripe · Webhooks · Automation"
                 },
                 "seo": {
-                    "title": "Digital Optimization",
-                    "description": "Technical refinement of your online presence — from loading speed to search engine visibility."
+                    "tag": "PERFORMANCE",
+                    "status": "ACTIVE",
+                    "title": "System Scalability",
+                    "description": "Eliminate user dropout before the site even loads. Every millisecond is engineered for performance – because every second of waiting is a direct loss in your profit.",
+                    "tech": "Core Web Vitals · CDN · Edge Computing"
                 }
             }
         },
         "about": {
-            "tagline": "About Us",
-            "title": "Why Us",
-            "description": "We focus on results, not complications. We treat every project as a partnership where your success is our priority.",
-            "stats": {
-                "projects": "Completed Projects",
-                "clients": "Happy Clients",
-                "experience": "Years of Experience"
+            "tagline": "Work Philosophy",
+            "title": "Standards.",
+            "description": "Direct communication. Profit architecture. Technological domination.",
+            "items": {
+                "responsibility": {
+                    "title": "Total Responsibility",
+                    "description": "My clients stay with me because they get stability and results. I focus on long-term partnerships, completing more projects for each client to ensure their consistent progress."
+                },
+                "speed": {
+                    "title": "Speed as Imperative",
+                    "description": "In a world where a millisecond delay means losing a client, my systems are engineered to be the fastest on the market."
+                },
+                "business": {
+                    "title": "Business Before Code",
+                    "description": "I first understand how your business makes money, then I open the editor. I don't build \"pretty websites\", I build your revenue engine."
+                }
             }
         },
         "cta": {
@@ -99,14 +121,14 @@
     "projects": {
         "hero": {
             "tagline": "Portfolio",
-            "headline": "Code That",
-            "headlineHighlight": "Makes a Difference",
-            "description": "I helped entrepreneurs elevate their business through optimized web solutions that deliver visible results. Your next success starts here."
+            "headline": "Projects That Becomes",
+            "headlineHighlight": "Business Leaders",
+            "description": "I helped entrepreneurs elevate their business through optimized web solutions that deliver visible results."
         },
         "stats": {
             "revenue": {
-                "value": "€10k+",
-                "label": "Revenue Generated"
+                "value": "Enterprise",
+                "label": "Grade Logic"
             },
             "projects": {
                 "value": "20+",
@@ -366,7 +388,7 @@
         "info": {
             "tagline": "INFORMATION",
             "title": "How to reach us",
-            "description": "Choose the method that works best for you. We respond within 24 hours.",
+            "description": "Choose the method that works best for you.",
             "email": {
                 "label": "Email"
             },

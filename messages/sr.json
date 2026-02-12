@@ -1,6 +1,6 @@
 {
   "footer": {
-    "brandDescription": "Pretvaram vaše ideje u funkcionalne i profitabilne digitalne proizvode.",
+    "brandDescription": "Gradim digitalne sisteme koji pretvaraju saobraćaj u prihod.",
     "navigation": "Navigacija",
     "contact": "Kontakt",
     "rights": "All rights reserved."
@@ -38,9 +38,9 @@
   "home": {
     "hero": {
       "tagline": "Web Rešenja",
-      "headline": "Razvijam sisteme koji donose rezultat.",
-      "description": "Tvoj biznis se ističe među konkurencijom, privlači više posetilaca, gradi poverenje i pretvara posete u stvarnu zaradu.",
-      "cta": "Započnite Projekat",
+      "headline": "Gradim digitalne sisteme koji pretvaraju saobraćaj u prihod.",
+      "description": "Web aplikacije, automatizacija i sistemi dizajnirani za konverziju i dugoročno skaliranje.",
+      "cta": "Razgovarajmo o sistemu",
       "ctaSecondary": "Pogledajte Radove",
       "stats": {
         "projects": {
@@ -58,55 +58,77 @@
       }
     },
     "services": {
-      "title": "Šta Radimo",
-      "subtitle": "Kompletna web rešenja prilagođena Vašim potrebama",
+      "label": "SISTEMI",
+      "title": "Sistemska rešenja za skaliranje prihoda.",
       "items": {
         "web": {
-          "title": "Web Razvoj",
-          "description": "Moderne i brze web stranice izgrađene najnovijim tehnologijama."
+          "tag": "CORE SYSTEM",
+          "status": "ACTIVE",
+          "title": "Full-Stack Engineering",
+          "description": "Gradim sisteme koji ne poznaju pojam 'down-time'. Dok se konkurencija bori sa bagovima i sporim učitavanjem, vaš biznis procesira uplate i podatke bez zastoja. Arhitektura projektovana da podrži nagli rast bez potrebe za potpunim prepisivanjem koda za šest meseci.",
+          "tech": "Next.js · Node.js · SQL · REST API",
+          "tags": "Zero-Failure Logic · Rapid Scaling · Enterprise Performance"
         },
         "design": {
-          "title": "Dizajn",
-          "description": "Elegantni i intuitivni interfejsi koji ostavljaju snažan prvi utisak."
+          "tag": "UX LAYER",
+          "status": "ACTIVE",
+          "title": "Conversion Architecture",
+          "description": "UI/UX dizajniran da vodi korisnika ka konverziji. Svaki piksel ima funkciju — smanjuje bounce rate i povećava prihod.",
+          "tech": "Responsive · Motion Design · A/B Testing"
         },
         "ecommerce": {
-          "title": "E-Commerce",
-          "description": "Kompletna rešenja za online prodaju sa integrisanim sistemima plaćanja."
+          "tag": "REVENUE ENGINE",
+          "status": "OPERATIONAL",
+          "title": "Revenue Infrastructure",
+          "description": "Integrisani sistemi za plaćanje, automatska isporuka i inventory tracking. Prodavnica koja zarađuje dok vi spavate.",
+          "tech": "Stripe · Webhooks · Automatizacija"
         },
         "seo": {
-          "title": "Digitalna Optimizacija",
-          "description": "Tehničko usavršavanje - od brzine učitavanja do vidljivosti na internetu."
+          "tag": "PERFORMANCE",
+          "status": "ACTIVE",
+          "title": "System Scalability",
+          "description": "Eliminišite gubitak korisnika pre nego što sajt i učita. Inženjerski optimizovan svaki milisekund – jer svaka sekunda čekanja je direktan gubitak u vašem profitu.",
+          "tech": "Core Web Vitals · CDN · Edge Computing"
         }
       }
     },
     "about": {
-      "tagline": "O Nama",
-      "title": "Zašto Ja?",
-      "description": "Moji klijenti ostaju uz mene jer dobijaju stabilnost i rezultate. Fokusiran sam na dugoročna partnerstva, realizujući više projekata za svakog klijenta kako bismo zajedno osigurali njihov stalni napredak.",
-      "stats": {
-        "projects": "Završenih Projekata",
-        "clients": "Dugoročnih Klijenata",
-        "experience": "Godina Iskustva"
+      "tagline": "Filozofija rada",
+      "title": "Standardi.",
+      "description": "Direktna komunikacija. Profitna arhitektura. Tehnološka dominacija.",
+      "items": {
+        "responsibility": {
+          "title": "Potpuna odgovornost",
+          "description": "Moji klijenti ostaju uz mene jer dobijaju stabilnost i rezultate. Fokusiran sam na dugoročna partnerstva, realizujući više projekata za svakog klijenta kako bismo zajedno osigurali njihov stalni napredak."
+        },
+        "speed": {
+          "title": "Brzina kao imperativ",
+          "description": "U svetu gde milisekunda kašnjenja znači gubitak klijenta, moji sistemi su projektovani da budu najbrži na tržištu."
+        },
+        "business": {
+          "title": "Biznis pre koda",
+          "description": "Prvo razumem kako vaš biznis zarađuje, pa tek onda otvaram editor. Ne pravim \"lep sajt\", gradim motor vašeg prihoda."
+        }
       }
     },
     "cta": {
       "tagline": "Sarađujmo",
       "title": "Spremni za Sledeći Korak?",
-      "description": "Razgovarajmo o tome kako mogu pomoći Vašem biznisu da dostigne pun potencijal online.",
+      "description": "Razgovarajmo o arhitekturi koja pretvara saobraćaj u predvidljiv prihod. Bez bagova, bez padova, samo čist inženjering.",
       "button": "Započnite Projekat"
     }
   },
   "projects": {
     "hero": {
       "tagline": "Portfolio",
-      "headline": "Kod Koji",
-      "headlineHighlight": "Pravi Razliku",
-      "description": "Pomogao sam preduzetnicima da podignu poslovanje na viši nivo kroz optimizovana web rešenja koja donose vidljivu razliku. Vaš sledeći uspeh počinje ovde."
+      "headline": "Projekti koji postaju",
+      "headlineHighlight": "Tržišni Lideri",
+      "description": "Pomogao sam preduzetnicima da podignu poslovanje na viši nivo kroz optimizovana web rešenja koja donose vidljivu razliku."
     },
     "stats": {
       "revenue": {
-        "value": "€10k+",
-        "label": "Generisani Prihod"
+        "value": "Enterprise",
+        "label": "Grade Logic"
       },
       "projects": {
         "value": "20+",
@@ -366,7 +388,7 @@
     "info": {
       "tagline": "INFORMACIJE",
       "title": "Kako nas kontaktirati",
-      "description": "Odaberite način koji vam najviše odgovara. Odgovaramo u roku od 24 sata.",
+      "description": "Odaberite način koji vam najviše odgovara.",
       "email": {
         "label": "Email"
       },

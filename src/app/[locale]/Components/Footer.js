@@ -45,7 +45,7 @@ export default function Footer() {
                             </svg>
                         </a>
                         <a
-                            href="mailto:office@zecevicdev.com"
+                            href="mailto:zecevicdev@gmail.com"
                             className={styles.socialLink}
                             aria-label="Email"
                         >
@@ -105,14 +105,14 @@ export default function Footer() {
                 <div className={styles.footerContact}>
                     <h4 className={styles.navTitle}>{t('contact')}</h4>
                     <div className={styles.contactInfo}>
-                        <a href="mailto:office@zecevicdev.com" className={styles.contactItem}>
+                        <a href="mailto:zecevicdev@gmail.com" className={styles.contactItem}>
                             <span className={styles.contactIcon}>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
                                     <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                                     <polyline points="22,6 12,13 2,6" />
                                 </svg>
                             </span>
-                            office@zecevicdev.com
+                            zecevicdev@gmail.com
                         </a>
                         <div className={styles.contactItem}>
                             <span className={styles.contactIcon}>

@@ -1,0 +1,280 @@
+/* ========================================
+   CTA SECTION - PREMIUM LUXURY
+   ======================================== */
+.ctaSection {
+    padding: 8rem 4rem;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+}
+
+/* CTA Background */
+.ctaBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.ctaBgGrid {
+    position: absolute;
+    inset: 0;
+    background-image:
+        linear-gradient(to right, rgba(201, 169, 98, 0.1) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(201, 169, 98, 0.08) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: ctaGridFloat 20s linear infinite;
+    mask-image: radial-gradient(ellipse 100% 80% at 50% 50%, black 0%, transparent 100%);
+    -webkit-mask-image: radial-gradient(ellipse 100% 80% at 50% 50%, black 0%, transparent 100%);
+}
+
+@keyframes ctaGridFloat {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+.ctaBgGlow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 700px;
+    background: radial-gradient(ellipse 60% 50% at 50% 50%, rgba(201, 169, 98, 0.15) 0%, transparent 70%);
+    animation: ctaGlowPulse 8s ease-in-out infinite;
+}
+
+@keyframes ctaGlowPulse {
+
+    0%,
+    100% {
+        opacity: 0.6;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+}
+
+.ctaParticle {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    background: linear-gradient(135deg, #c9a962 0%, #d4af37 100%);
+    border-radius: 50%;
+    opacity: 0.5;
+    animation: ctaParticleFloat 12s ease-in-out infinite;
+    box-shadow: 0 0 12px rgba(201, 169, 98, 0.6);
+}
+
+@keyframes ctaParticleFloat {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 0.5;
+    }
+
+    25% {
+        transform: translateY(-35px) scale(1.3);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: translateY(-20px) scale(0.9);
+        opacity: 0.4;
+    }
+
+    75% {
+        transform: translateY(-45px) scale(1.15);
+        opacity: 0.7;
+    }
+}
+
+/* CTA Content */
+.ctaContent {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.ctaTagline {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.625rem 1.5rem;
+    background: linear-gradient(135deg, rgba(201, 169, 98, 0.15) 0%, rgba(212, 175, 55, 0.1) 100%);
+    border: 1px solid rgba(201, 169, 98, 0.3);
+    border-radius: 100px;
+    font-family: var(--font-heading);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #c9a962;
+    margin-bottom: 1.5rem;
+    backdrop-filter: blur(10px);
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.ctaTaglineIcon {
+    width: 8px;
+    height: 8px;
+    background: linear-gradient(135deg, #c9a962 0%, #d4af37 100%);
+    border-radius: 50%;
+    animation: pulse 2.5s ease-in-out infinite;
+    box-shadow: 0 0 14px rgba(201, 169, 98, 0.7);
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: scale(0.85);
+    }
+}
+
+.ctaContent h2 {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+.ctaContent p {
+    font-family: var(--font-body);
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 1.7;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s both;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* CTA Button */
+.ctaButton {
+    position: relative;
+    display: inline-block;
+    padding: 1.25rem 3.25rem;
+    background: linear-gradient(135deg, #c9a962 0%, #d4af37 100%);
+    color: #1a1a1a;
+    border-radius: 100px;
+    font-family: var(--font-heading);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(201, 169, 98, 0.3), 0 0 0 1px rgba(201, 169, 98, 0.2);
+    animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.3s both;
+}
+
+.btnText {
+    position: relative;
+    z-index: 2;
+}
+
+.btnShine {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.3) 50%, transparent 100%);
+    transition: left 0.6s ease;
+}
+
+.ctaButton:hover .btnShine {
+    left: 100%;
+}
+
+.ctaButton:hover {
+    transform: translateY(-6px) scale(1.05);
+    box-shadow: 0 28px 50px rgba(201, 169, 98, 0.4), 0 12px 24px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(201, 169, 98, 0.4);
+    background: linear-gradient(135deg, #d4af37 0%, #e6c04d 100%);
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 968px) {
+    .ctaSection {
+        padding: 5rem 2rem;
+    }
+
+    .ctaBgGrid {
+        mask-image: radial-gradient(ellipse 100% 80% at 50% 50%, black 0%, transparent 100%);
+        -webkit-mask-image: radial-gradient(ellipse 100% 80% at 50% 50%, black 0%, transparent 100%);
+    }
+}
+
+@media (max-width: 768px) {
+    .ctaSection {
+        padding: 4rem 1.5rem;
+    }
+
+    .ctaContent h2 {
+        font-size: clamp(2rem, 5vw, 2.5rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .ctaSection {
+        padding: 3.5rem 1.25rem;
+    }
+
+    .ctaBgGrid {
+        background-size: 40px 40px;
+        mask-image: radial-gradient(ellipse 150% 90% at 50% 50%, black 0%, transparent 100%);
+        -webkit-mask-image: radial-gradient(ellipse 150% 90% at 50% 50%, black 0%, transparent 100%);
+    }
+
+    .ctaBgGlow {
+        width: 120%;
+    }
+
+    .ctaButton {
+        width: 100%;
+        max-width: 300px;
+        padding: 1.125rem 2.5rem;
+    }
+}

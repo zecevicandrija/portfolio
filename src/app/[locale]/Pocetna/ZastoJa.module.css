@@ -1,0 +1,306 @@
+/* ========================================
+   EDITORIAL MINIMALIST LAYOUT
+   ======================================== */
+.editorialSection {
+    position: relative;
+    padding: 8rem 4rem 4rem;
+    background-color: #ffffff;
+    overflow: hidden;
+    color: #000000;
+    min-height: 100vh;
+}
+
+.editorialBackground {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.grainTexture {
+    position: absolute;
+    inset: 0;
+    /* Simulate subtle grain with SVG filter */
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+    opacity: 0.4;
+    mix-blend-mode: multiply;
+}
+
+.verticalLine {
+    position: absolute;
+    left: 35%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: rgba(0, 0, 0, 0.08);
+}
+
+.editorialContent {
+    position: relative;
+    z-index: 1;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    /* Asymmetric layout */
+    gap: 6rem;
+}
+
+/* Left Column */
+.leftColumn {
+    position: relative;
+    padding-top: 2rem;
+}
+
+.stickyWrapper {
+    position: sticky;
+    top: 8rem;
+    padding-right: 2rem;
+}
+
+.editorialTitle {
+    font-family: var(--font-heading);
+    font-size: clamp(3.5rem, 6vw, 6rem);
+    font-weight: 800;
+    line-height: 0.95;
+    color: #000000;
+    margin-bottom: 2rem;
+    letter-spacing: -0.04em;
+    animation: slideInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.editorialSubtitle {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #444444;
+    max-width: 350px;
+    font-weight: 500;
+    animation: slideInLeft 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.1s both;
+}
+
+/* Right Column */
+.rightColumn {
+    padding-top: 10rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.valuesList {
+    display: grid;
+    /* Stack all items in the same cell */
+    grid-template-areas: "stack";
+    position: relative;
+    min-height: 350px;
+    flex: 1;
+    align-items: center;
+}
+
+.valueItem {
+    grid-area: stack;
+    position: relative;
+    padding-left: 3rem;
+    border-left: 2px solid rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    /* GSAP will handle opacity/visibility/transform */
+    opacity: 0;
+    visibility: hidden;
+    will-change: transform, opacity;
+}
+
+/* Interactive line expansion on hover */
+.valueItem::before {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 0;
+    height: 0%;
+    width: 2px;
+    background-color: #000000;
+    transition: height 0.4s ease;
+}
+
+.valueItem:hover::before {
+    height: 100%;
+}
+
+.valueItem:hover {
+    padding-left: 3.5rem;
+    transition: padding-left 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.valueHeader {
+    display: flex;
+    align-items: baseline;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.valueNumber {
+    font-family: var(--font-mono, monospace);
+    font-size: 1rem;
+    color: #000000;
+    font-weight: 600;
+    opacity: 0.4;
+}
+
+.valueTitle {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: -0.03em;
+}
+
+.valueDescription {
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: #444444;
+    max-width: 650px;
+    font-weight: 300;
+}
+
+/* Progress Indicator */
+.progressIndicator {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-top: 3rem;
+    padding-left: 3rem;
+}
+
+.progressTrack {
+    width: 120px;
+    height: 2px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 1px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progressLine {
+    position: absolute;
+    inset: 0;
+    background: #000000;
+    border-radius: 1px;
+    transform: scaleX(0);
+    transform-origin: left center;
+}
+
+.progressDots {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.progressDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    will-change: transform, background-color;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .editorialContent {
+        grid-template-columns: 1fr;
+        gap: 6rem;
+    }
+
+    .verticalLine {
+        display: none;
+    }
+
+    .leftColumn {
+        padding-top: 0;
+    }
+
+    .rightColumn {
+        padding-top: 0;
+    }
+
+    .stickyWrapper {
+        position: static;
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .editorialTitle {
+        font-size: 4rem;
+        max-width: 100%;
+    }
+
+    .editorialSubtitle {
+        max-width: 100%;
+    }
+
+    .valuesList {
+        gap: 5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .editorialSection {
+        padding: 5rem 1.5rem 3rem;
+    }
+
+    .editorialTitle {
+        font-size: 3rem;
+    }
+
+    .valueHeader {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .valueItem {
+        padding-left: 1.5rem;
+    }
+
+    .valueItem:hover {
+        padding-left: 1.5rem;
+        /* Disable padding shift on mobile */
+    }
+
+    .valueDescription {
+        font-size: 1.1rem;
+    }
+
+    .progressIndicator {
+        padding-left: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .progressTrack {
+        width: 80px;
+    }
+}

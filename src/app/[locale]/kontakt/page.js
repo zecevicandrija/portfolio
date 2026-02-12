@@ -88,7 +88,7 @@ export default function ContactPage() {
 
                         <div className={styles.infoCards}>
                             {/* Email Card */}
-                            <a href="mailto:office@zecevicdev.com" className={styles.infoCard} style={{ animationDelay: '0s' }}>
+                            <a href="mailto:zecevicdev@gmail.com" className={styles.infoCard} style={{ animationDelay: '0s' }}>
                                 <div className={styles.infoCardInner}>
                                     <div className={styles.infoGlow}></div>
                                     <div className={styles.infoIcon}>
@@ -97,7 +97,7 @@ export default function ContactPage() {
                                             <polyline points="22,6 12,13 2,6" />
                                         </svg>
                                     </div>
-                                    <span className={styles.infoValue}>office@zecevicdev.com</span>
+                                    <span className={styles.infoValue}>zecevicdev@gmail.com</span>
                                     <div className={styles.infoBar}>
                                         <div className={styles.infoBarFill}></div>
                                     </div>
@@ -198,7 +198,7 @@ export default function ContactPage() {
                     </span>
                     <h2>{t('cta.title')}</h2>
                     <p>{t('cta.description')}</p>
-                    <a href="mailto:office@zecevicdev.com" className={styles.ctaButton}>
+                    <a href="mailto:zecevicdev@gmail.com" className={styles.ctaButton}>
                         <span className={styles.btnText}>{t('cta.button')}</span>
                         <span className={styles.btnShine}></span>
                     </a>
