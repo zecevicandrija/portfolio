@@ -410,7 +410,11 @@
       "subjectPlaceholder": "O čemu želite da razgovaramo?",
       "message": "Poruka",
       "messagePlaceholder": "Opišite vaš projekat ili pitanje...",
-      "submit": "POŠALJI PORUKU"
+      "submit": "POŠALJI PORUKU",
+      "success": "Poruka je uspešno poslata!",
+      "error": "Došlo je do greške. Pokušajte ponovo.",
+      "loading": "Slanje...",
+      "rateLimit": "Previše pokušaja. Molimo sačekajte 10 minuta."
     },
     "cta": {
       "tagline": "ALTERNATIVA",

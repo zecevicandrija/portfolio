@@ -410,7 +410,11 @@
             "subjectPlaceholder": "What would you like to discuss?",
             "message": "Message",
             "messagePlaceholder": "Describe your project or question...",
-            "submit": "SEND MESSAGE"
+            "submit": "SEND MESSAGE",
+            "success": "Message sent successfully!",
+            "error": "Something went wrong. Please try again.",
+            "loading": "Sending...",
+            "rateLimit": "Too many attempts. Please wait 10 minutes."
         },
         "cta": {
             "tagline": "ALTERNATIVE",

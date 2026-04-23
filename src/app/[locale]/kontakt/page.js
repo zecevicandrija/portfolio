@@ -1,11 +1,54 @@
 'use client';
 
+import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '../../../i18n/routing';
 import styles from "./page.module.css";
 
 export default function ContactPage() {
     const t = useTranslations('contact');
+    const [status, setStatus] = useState('idle'); // idle, loading, success, error, rate-limit
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        message: ''
+    });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
+    };
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setStatus('loading');
+
+        try {
+            const response = await fetch('/api/send', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData),
+            });
+
+            if (response.status === 429) {
+                setStatus('rate-limit');
+                return;
+            }
+
+            if (!response.ok) {
+                throw new Error('Failed to send message');
+            }
+
+            setStatus('success');
+            setFormData({ name: '', email: '', subject: '', message: '' });
+        } catch (error) {
+            console.error('Submission error:', error);
+            setStatus('error');
+        }
+    };
 
     return (
         <div className={styles.page}>
@@ -148,27 +191,70 @@ export default function ContactPage() {
                                 <h3>{t('form.title')}</h3>
                                 <p className={styles.formDescription}>{t('form.description')}</p>
 
-                                <form className={styles.form}>
+                                <form className={styles.form} onSubmit={handleSubmit}>
                                     <div className={styles.formRow}>
                                         <div className={styles.formGroup}>
                                             <label htmlFor="name">{t('form.name')}</label>
-                                            <input type="text" id="name" name="name" placeholder={t('form.namePlaceholder')} required />
+                                            <input 
+                                                type="text" 
+                                                id="name" 
+                                                name="name" 
+                                                placeholder={t('form.namePlaceholder')} 
+                                                value={formData.name}
+                                                onChange={handleChange}
+                                                required 
+                                            />
                                         </div>
                                         <div className={styles.formGroup}>
                                             <label htmlFor="email">{t('form.email')}</label>
-                                            <input type="email" id="email" name="email" placeholder={t('form.emailPlaceholder')} required />
+                                            <input 
+                                                type="email" 
+                                                id="email" 
+                                                name="email" 
+                                                placeholder={t('form.emailPlaceholder')} 
+                                                value={formData.email}
+                                                onChange={handleChange}
+                                                required 
+                                            />
                                         </div>
                                     </div>
                                     <div className={styles.formGroup}>
                                         <label htmlFor="subject">{t('form.subject')}</label>
-                                        <input type="text" id="subject" name="subject" placeholder={t('form.subjectPlaceholder')} required />
+                                        <input 
+                                            type="text" 
+                                            id="subject" 
+                                            name="subject" 
+                                            placeholder={t('form.subjectPlaceholder')} 
+                                            value={formData.subject}
+                                            onChange={handleChange}
+                                            required 
+                                        />
                                     </div>
                                     <div className={styles.formGroup}>
                                         <label htmlFor="message">{t('form.message')}</label>
-                                        <textarea id="message" name="message" rows="5" placeholder={t('form.messagePlaceholder')} required></textarea>
+                                        <textarea 
+                                            id="message" 
+                                            name="message" 
+                                            rows="5" 
+                                            placeholder={t('form.messagePlaceholder')} 
+                                            value={formData.message}
+                                            onChange={handleChange}
+                                            required
+                                        ></textarea>
                                     </div>
-                                    <button type="submit" className={styles.submitBtn}>
-                                        <span className={styles.btnText}>{t('form.submit')}</span>
+                                    
+                                    {status === 'success' && <p className={styles.successMsg}>{t('form.success')}</p>}
+                                    {status === 'error' && <p className={styles.errorMsg}>{t('form.error')}</p>}
+                                    {status === 'rate-limit' && <p className={styles.errorMsg}>{t('form.rateLimit')}</p>}
+
+                                    <button 
+                                        type="submit" 
+                                        className={styles.submitBtn} 
+                                        disabled={status === 'loading'}
+                                    >
+                                        <span className={styles.btnText}>
+                                            {status === 'loading' ? t('form.loading') : t('form.submit')}
+                                        </span>
                                         <span className={styles.btnShine}></span>
                                     </button>
                                 </form>
