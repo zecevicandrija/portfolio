@@ -11,7 +11,6 @@ export default function ContactPage() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
-        subject: '',
         message: ''
     });
 
@@ -43,7 +42,7 @@ export default function ContactPage() {
             }
 
             setStatus('success');
-            setFormData({ name: '', email: '', subject: '', message: '' });
+            setFormData({ name: '', email: '', message: '' });
         } catch (error) {
             console.error('Submission error:', error);
             setStatus('error');
@@ -218,18 +217,7 @@ export default function ContactPage() {
                                             />
                                         </div>
                                     </div>
-                                    <div className={styles.formGroup}>
-                                        <label htmlFor="subject">{t('form.subject')}</label>
-                                        <input 
-                                            type="text" 
-                                            id="subject" 
-                                            name="subject" 
-                                            placeholder={t('form.subjectPlaceholder')} 
-                                            value={formData.subject}
-                                            onChange={handleChange}
-                                            required 
-                                        />
-                                    </div>
+
                                     <div className={styles.formGroup}>
                                         <label htmlFor="message">{t('form.message')}</label>
                                         <textarea 
@@ -239,7 +227,6 @@ export default function ContactPage() {
                                             placeholder={t('form.messagePlaceholder')} 
                                             value={formData.message}
                                             onChange={handleChange}
-                                            required
                                         ></textarea>
                                     </div>
                                     

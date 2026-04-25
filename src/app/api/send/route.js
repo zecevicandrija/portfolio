@@ -24,11 +24,12 @@ export async function POST(request) {
 
     rateLimit.set(ip, currentUsage + 1);
 
-    const { name, email, subject, message } = await request.json();
+    const { name, email, message } = await request.json();
+    const finalMessage = message || 'Nema poruke';
 
-    if (!name || !email || !subject || !message) {
+    if (!name || !email) {
       return NextResponse.json(
-        { error: 'Sva polja su obavezna.' },
+        { error: 'Ime i mejl su obavezni.' },
         { status: 400 }
       );
     }
@@ -36,16 +37,15 @@ export async function POST(request) {
     const { data, error } = await resend.emails.send({
       from: 'ZecevicDev <no-reply@zecevicdev.com>',
       to: ['zecevicdev@gmail.com'],
-      subject: `Nova poruka: ${subject}`,
+      subject: `Nova poruka od: ${name}`,
       replyTo: email,
       html: `
         <div style="font-family: sans-serif; padding: 20px; color: #333;">
           <h2 style="color: #000;">Nova poruka sa kontakt forme</h2>
           <p><strong>Ime:</strong> ${name}</p>
           <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Naslov:</strong> ${subject}</p>
           <hr style="border: none; border-top: 1px solid #eee; margin: 20px 0;" />
-          <p style="white-space: pre-wrap;">${message}</p>
+          <p style="white-space: pre-wrap;">${finalMessage}</p>
         </div>
       `,
     });
