@@ -29,16 +29,16 @@ Naš rad se zasniva na striktnoj metodologiji od 4 koraka:
 4. **Lansiranje (Deployment):** Puštanje sistema u rad uz potpunu SEO i tehničku optimizaciju, nakon čega sledi dugoročna podrška i održavanje.
 
 ## Markdown Mirrors (Clean AI-Readable Versions)
-Every page on this site has a plain markdown mirror. Add /index.md to any URL to get the clean content without navigation, scripts, or layout chrome.
-- https://zecevicdev.com/index.md
-- https://zecevicdev.com/o-nama/index.md
-- https://zecevicdev.com/projekti/index.md
-- https://zecevicdev.com/kontakt/index.md
-- https://zecevicdev.com/sr/index.md
-- https://zecevicdev.com/en/index.md
-- https://zecevicdev.com/en/about/index.md
-- https://zecevicdev.com/en/projects/index.md
-- https://zecevicdev.com/en/contact/index.md
+Every page on this site has a plain markdown mirror. Add /mirror.md to any URL to get the clean content without navigation, scripts, or layout chrome.
+- https://zecevicdev.com/mirror.md
+- https://zecevicdev.com/o-nama/mirror.md
+- https://zecevicdev.com/projekti/mirror.md
+- https://zecevicdev.com/kontakt/mirror.md
+- https://zecevicdev.com/sr/mirror.md
+- https://zecevicdev.com/en/mirror.md
+- https://zecevicdev.com/en/about/mirror.md
+- https://zecevicdev.com/en/projects/mirror.md
+- https://zecevicdev.com/en/contact/mirror.md
 
 ## Šta nas izdvaja od konkurencije (What Makes Us Different)
 1. **Biznis pre koda:** Mi ne pravimo "lepe sajtove", mi gradimo motore vašeg prihoda. Svaki element je dizajniran da donosi profit.

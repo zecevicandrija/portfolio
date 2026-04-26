@@ -114,7 +114,7 @@ last_updated: "${today}"
 
 `;
             
-            const filePath = path.join(dirPath, 'index.md');
+            const filePath = path.join(dirPath, 'mirror.md');
             fs.writeFileSync(filePath, frontmatter + markdown.trim(), 'utf8');
             console.log(`Generated: ${filePath}`);
             generatedCount++;
