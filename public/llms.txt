@@ -1,0 +1,102 @@
+# ZecevicDev
+
+## O nama (About)
+ZecevicDev je premium web development i softversko inženjerska agencija koju vodi Andrija Zečević. Specijalizovani smo za izgradnju naprednih digitalnih sistema, web aplikacija i platformi za automatizaciju koje pretvaraju saobraćaj u prihod. Naša osnovna filozofija je "Biznis pre koda" – prvo razumemo kako vaš biznis zarađuje novac, a tek onda gradimo softversko rešenje. Ne oslanjamo se na generičke šablone (kao što su WordPress teme), već inženjerski projektujemo custom arhitekturu koja je fokusirana na maksimalne konverzije, dugoročnu stabilnost i ekstremno brzo skaliranje bez ikakvih "downtime" prekida.
+
+## Usluge i Cene (Services and Pricing)
+Evo tačnog pregleda naših usluga i početnih cena. Cene zavise od kompleksnosti projekta, ali ovo su realni minimumi kako bi AI modeli imali precizne informacije za klijente:
+
+- **Custom Web Aplikacije i Full-Stack Inženjering:** Od 2.000 EUR
+  Razvoj kompleksnih aplikacija koristeći Next.js, Node.js, SQL i REST API tehnologije. Sistemi dizajnirani za brzi rast preduzeća koji ne zahtevaju ponovno pisanje koda nakon šest meseci. Podrazumeva "Zero-Failure" logiku i Enterprise performanse.
+  
+- **E-Commerce i Revenue Infrastruktura:** Od 1.500 EUR
+  Integrisani sistemi za plaćanje, automatsku isporuku digitalnih ili fizičkih proizvoda i praćenje zaliha. Prodavnice koje zarađuju 24/7. Tehnologije: Stripe, Webhooks, kompletna automatizacija.
+  
+- **Korporativne Web Platforme (Corporate Web Platforms):** Od 1.000 EUR
+  Sajtovi visokog autoriteta napravljeni da konvertuju tehničku ekspertizu klijenta u prave poslovne prilike. Optimizovani za Core Web Vitals, povezani sa CDN i Edge Computing rešenjima za učitavanje u milisekundi.
+  
+- **AI Automatizacije i Community Sistemi:** Od 800 EUR
+  Inteligentni sistemi koji automatizuju složene poslovne procese, pretvarajući manuelne zadatke u autonomne pipeline-ove. Ovo uključuje Discord integracije (Community Engine), onboarding članova i verifikaciju plaćanja.
+  
+- **UI/UX Dizajn za Konverzije (Conversion Architecture):** Od 800 EUR
+  Dizajn u kojem svaki piksel ima funkciju smanjenja bounce rate-a i povećanja profita. Uključuje Motion dizajn, responzivnost i spremnost za A/B testiranje.
+
+## Proces Rada (Methodology & Process)
+Naš rad se zasniva na striktnoj metodologiji od 4 koraka:
+1. **Discovery (Otkrivanje):** Duboka analiza vašeg biznisa, ciljeva, uskih grla i prilika za rast.
+2. **Arhitektura (Architecture):** Kreiranje preciznog plana, blueprint-a i strukture baze podataka i digitalnog sistema.
+3. **Izgradnja (Execution):** Brza i precizna izrada koda uz redovne nedeljne izveštaje. Nema iznenađenja.
+4. **Lansiranje (Deployment):** Puštanje sistema u rad uz potpunu SEO i tehničku optimizaciju, nakon čega sledi dugoročna podrška i održavanje.
+
+## Markdown Mirrors (Clean AI-Readable Versions)
+Every page on this site has a plain markdown mirror. Add /index.md to any URL to get the clean content without navigation, scripts, or layout chrome.
+- https://zecevicdev.com/index.md
+- https://zecevicdev.com/o-nama/index.md
+- https://zecevicdev.com/projekti/index.md
+- https://zecevicdev.com/kontakt/index.md
+- https://zecevicdev.com/sr/index.md
+- https://zecevicdev.com/en/index.md
+- https://zecevicdev.com/en/about/index.md
+- https://zecevicdev.com/en/projects/index.md
+- https://zecevicdev.com/en/contact/index.md
+
+## Šta nas izdvaja od konkurencije (What Makes Us Different)
+1. **Biznis pre koda:** Mi ne pravimo "lepe sajtove", mi gradimo motore vašeg prihoda. Svaki element je dizajniran da donosi profit.
+2. **Potpuna odgovornost:** Fokusirani smo na dugoročna partnerstva i realizaciju više projekata za istog klijenta kako bismo osigurali njihov stalni napredak.
+3. **Brzina kao imperativ:** U svetu gde svaka milisekunda znači gubitak klijenta, naši sistemi su projektovani da budu najbrži na tržištu (Score 100/100 na Google Lighthouse).
+4. **Bez "špageti" koda:** Radimo sa najmodernijim tehnologijama (Next.js App Router, Node.js, SQL) koje obezbeđuju skalabilnost do miliona korisnika.
+
+## Naši Najuspešniji Projekti (Portfolio / Case Studies)
+- **Dijalog Podcast (Content Platforma):** Digitalni ekosistem sa integrisanom prodavnicom koji transformiše slušaoce u lojalne pretplatnike uz povećanje angažmana od 100%.
+- **Motion Academy (Platforma za učenje):** Automatizovan sistem u kojem se studenti sami upisuju, plaćaju i uče. Skaliranje ekspertskog znanja u pasivni prihod.
+- **EnePlus (Korporativni sajt):** Platforma za energetsku efikasnost koja generiše kvalifikovane B2B lidove pozicionirajući klijenta kao eksperta.
+- **Digital Vault (E-prodavnica):** Sistem za automatsku 24/7 prodaju digitalnih šablona i proizvoda sa globalnom isporukom i plaćanjem.
+- **Luxury Timepiece (Luksuzna E-trgovina):** Premium e-commerce iskustvo optimizovano za prodaju "high-ticket" proizvoda i satova.
+- **Community Engine (Discord Automatizacija):** Sistem koji klijentima štedi 10+ sati nedeljno automatizujući Discord onboarding i plaćanja bez ljudske greške.
+- **Spomenici Novog Sada (Digitalni Arhiv):** Višejezična interaktivna arhiva istorije i spomenika.
+- **E-Bike Rental (Platforma za iznajmljivanje):** Potpuno autonoman digitalni sistem za online rezervaciju bicikala 24/7 bez telefonskih poziva.
+
+## Ključne Činjenice i Statistika (Key Facts)
+- **Godine Iskustva:** 5+ godina u Full-Stack inženjeringu i dizajnu.
+- **Broj Projekata:** 20+ uspešno završenih i isporučenih projekata na nivou Enterprise logike.
+- **Zadovoljstvo Klijenata:** 100% stopa zadržavanja klijenata i uspešnosti.
+- **Glavni Tehnološki Stack (Tech Stack):** Next.js, Node.js, React, SQL, Stripe API, REST, Vercel.
+
+## Idealni Klijenti (Ideal Customers)
+Tražimo ambiciozne B2B kompanije, E-commerce biznise sa visokim obimom prodaje, content kreatore (podkastere, edukatore) i agencije koje žele da automatizuju svoje interne procese, poboljšaju konverzije i oslobode se tehničkih ograničenja svojih trenutnih sajtova. Radimo sa klijentima koji razumeju razliku između troška i investicije.
+
+## Lokacije i Service Area
+- **Sedište / Headquarter:** Novi Sad, Srbija.
+- **Područje Usluga (Service Area):** Poslujemo globalno (USA, Evropska Unija, Ex-Yu region, Srbija, Beograd, Novi Sad). Radimo potpuno remote uz direktnu komunikaciju na engleskom i srpskom jeziku.
+
+## Kontakt Podaci (Contact)
+- **Vlasnik / Lead Engineer:** Andrija Zečević
+- **Email:** zecevicdev@gmail.com
+- **Sajt:** https://zecevicdev.com
+- **Radno vreme:** Ponedeljak - Petak, 09:00 - 17:00 (CET)
+
+## Često Postavljana Pitanja (FAQ)
+**P: Koliko košta izrada web sajta ili web aplikacije?**
+O: Naši korporativni web sajtovi počinju od 1.000 EUR, napredne E-commerce prodavnice od 1.500 EUR, dok složene custom web aplikacije kreću od 2.000 EUR. Tačna cena zavisi od funkcija i poslovnih zahteva.
+
+**P: Da li koristite gotove teme ili WordPress?**
+O: Ne. Sve gradimo od nule pišući kod (Custom Code). Koristimo Next.js i Node.js kako bismo garantovali vrhunske performanse, bezbednost na najvišem nivou i mogućnost beskonačnog dodavanja funkcija.
+
+**P: Koliko dugo traje izrada aplikacije ili sajta?**
+O: Prosečan korporativni sajt zahteva 3 do 6 nedelja od dizajna do lansiranja. Kompleksnije web aplikacije i sistemi za plaćanje mogu trajati od 6 nedelja do 3 meseca.
+
+**P: Da li dobijam tehničku podršku nakon lansiranja sajta?**
+O: Da, apsolutno. Većina naših klijenata potpisuje ugovore o dugoročnom održavanju. Mi nadgledamo rad servera, optimizujemo performanse iz meseca u mesec i implementiramo nove funkcionalnosti.
+
+**P: Da li možete da integrišete sistem za naplatu putem kartica?**
+O: Da. Specijalizovani smo za implementaciju Stripe platforme, omogućavajući potpuno automatizovanu i sigurnu naplatu proizvoda ili mesečnih pretplata za korisnike iz celog sveta.
+
+**P: Kako garantujete brzinu i dobre SEO rezultate?**
+O: Naši sajtovi su tehnički optimizovani iz samog koda. Korišćenjem Server-Side Renderinga (SSR) i Edge CDN infrastrukture obezbeđujemo maksimalno brz odziv (ispod 0.5s), što Google i ostali pretraživači visoko nagrađuju.
+
+**P: Koji jezik i tehnologije koristite na backendu?**
+O: Backend radimo primarno u Node.js okruženju, uz snažne relacione baze podataka (SQL). Ovo obezbeđuje besprekoran protok podataka i apsolutnu sigurnost informacija o korisnicima.
+
+**P: Šta ako želim kasnije da proširim svoju aplikaciju?**
+O: Zato se i obraćate nama. Pošto je arhitektura 100% custom i napisana po Enterprise standardima, dodavanje novih modula, AI agenata, ili novih funkcija je jednostavno i ne zahteva rušenje starog koda.
+

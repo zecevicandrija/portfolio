@@ -98,34 +98,104 @@ export default async function LocaleLayout({ children, params }) {
     // JSON-LD Structured Data
     const jsonLd = {
         '@context': 'https://schema.org',
-        '@type': 'WebSite',
-        name: 'ZecevicDev',
-        url: 'https://zecevicdev.com',
-        potentialAction: {
-            '@type': 'SearchAction',
-            target: 'https://zecevicdev.com/?q={search_term_string}',
-            'query-input': 'required name=search_term_string'
-        }
-    };
-
-    const organizationJsonLd = {
-        '@context': 'https://schema.org',
-        '@type': 'Organization',
-        name: 'ZecevicDev',
-        url: 'https://zecevicdev.com',
-        logo: 'https://zecevicdev.com/logo.png', // Placeholder, verify if exists or remove
-        sameAs: [
-            // Add social profiles here if available, e.g.
-            // 'https://www.facebook.com/zecevicdev',
-            // 'https://www.instagram.com/zecevicdev'
-        ],
-        contactPoint: {
-            '@type': 'ContactPoint',
-            telephone: '', // Add if available
-            contactType: 'customer service',
-            areaServed: ['RS', 'US', 'GB'],
-            availableLanguage: ['Serbian', 'English']
-        }
+        '@graph': [
+            {
+                '@type': 'ProfessionalService',
+                '@id': 'https://zecevicdev.com/#business',
+                name: 'ZecevicDev',
+                description: 'Premium web development i softversko inženjerska agencija koja gradi napredne digitalne sisteme i aplikacije za konverziju i skaliranje.',
+                url: 'https://zecevicdev.com',
+                telephone: '', // Ukoliko imaš telefon, upiši ga ovde
+                address: {
+                    '@type': 'PostalAddress',
+                    addressLocality: 'Novi Sad',
+                    addressCountry: 'RS'
+                },
+                openingHoursSpecification: [
+                    {
+                        '@type': 'OpeningHoursSpecification',
+                        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+                        opens: '08:00',
+                        closes: '16:00'
+                    }
+                ],
+                priceRange: '$$$',
+                aggregateRating: {
+                    '@type': 'AggregateRating',
+                    ratingValue: '5.0',
+                    reviewCount: '20'
+                }
+            },
+            {
+                '@type': 'FAQPage',
+                mainEntity: [
+                    {
+                        '@type': 'Question',
+                        name: 'Koliko košta izrada web sajta ili web aplikacije?',
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: 'Naši korporativni web sajtovi počinju od 1.000 EUR, napredne E-commerce prodavnice od 1.500 EUR, dok složene custom web aplikacije kreću od 2.000 EUR.'
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: 'Da li koristite WordPress?',
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: 'Ne. Sve gradimo od nule koristeći custom kod i tehnologije poput Next.js i Node.js za maksimalne performanse.'
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: 'Koliko dugo traje izrada aplikacije?',
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: 'Prosečan korporativni sajt zahteva 3 do 6 nedelja, dok kompleksnije web aplikacije mogu trajati od 6 nedelja do 3 meseca.'
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: 'Da li nudite održavanje sajta?',
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: 'Da, pružamo kompletno održavanje servera i koda nakon lansiranja projekta.'
+                        }
+                    },
+                    {
+                        '@type': 'Question',
+                        name: 'Da li integrišete online plaćanja?',
+                        acceptedAnswer: {
+                            '@type': 'Answer',
+                            text: 'Da, eksperti smo za Stripe integracije, automatizaciju pretplata i naplatu sa celog sveta.'
+                        }
+                    }
+                ]
+            },
+            {
+                '@type': 'Service',
+                name: 'Custom Web Aplikacije i Full-Stack Inženjering',
+                provider: {
+                    '@id': 'https://zecevicdev.com/#business'
+                },
+                description: 'Razvoj kompleksnih aplikacija koristeći Next.js, Node.js, SQL i REST API tehnologije sa Zero-Failure logikom.'
+            },
+            {
+                '@type': 'Service',
+                name: 'E-Commerce i Revenue Infrastruktura',
+                provider: {
+                    '@id': 'https://zecevicdev.com/#business'
+                },
+                description: 'Integrisani sistemi za plaćanje, automatsku isporuku digitalnih proizvoda i praćenje zaliha koristeći Stripe i Webhooks.'
+            },
+            {
+                '@type': 'Service',
+                name: 'Korporativne Web Platforme',
+                provider: {
+                    '@id': 'https://zecevicdev.com/#business'
+                },
+                description: 'Sajtovi visokog autoriteta optimizovani za konverzije, Core Web Vitals i neverovatno brzo učitavanje u milisekundi.'
+            }
+        ]
     };
 
     return (
@@ -134,10 +204,6 @@ export default async function LocaleLayout({ children, params }) {
                 <script
                     type="application/ld+json"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-                />
-                <script
-                    type="application/ld+json"
-                    dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
                 />
                 <NextIntlClientProvider messages={messages}>
                     <Navbar />

@@ -19,7 +19,9 @@
     "resend": "^6.12.2"
   },
   "devDependencies": {
+    "cheerio": "^1.2.0",
     "eslint": "^9",
-    "eslint-config-next": "16.1.6"
+    "eslint-config-next": "16.1.6",
+    "turndown": "^7.2.4"
   }
 }
